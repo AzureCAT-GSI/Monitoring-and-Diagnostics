@@ -7,7 +7,7 @@ The PowerPoint includes full speaker notes helping you understand the slides, an
 Watch the [video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-and-diagnostics/todo.mp4).
 
 ## Demos
-1. Azure Rate Card API
+1. Demo 1
 [[source code](https://github.com/GSIAzureCOE/Monitoring-and-Diagnostics/blob/master/todo)]
 [[demo script](https://github.com/GSIAzureCOE/Monitoring-and-Diagnostics/blob/master/todo.docx)]
 [[video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-and-diagnostics/todo.mp4)]
