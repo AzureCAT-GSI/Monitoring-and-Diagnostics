@@ -1,0 +1,88 @@
+﻿<!-- Work CSS -->
+<link rel="stylesheet" href="../content/portfolio/app/home/work/work.min.css" />
+
+<section id="work" ng-controller="WorkCtrl">
+
+    <div class="container">
+
+        <div class="row section-heading">
+            <div class="col-md-10 col-md-offset-1">
+
+                <h1>Our work speaks for itself.</h1>
+                <h2>We have the pleasure of working with many clients from all over the world. <br /> Here are a few examples of some of those great collaborations.</h2>
+
+            </div>
+        </div>
+
+        <div class="row project-search">
+
+            <div class="col-xs-6">
+                <form class="form" role="form">
+                    <div class="form-group">
+                        <label class="sr-only" for="projectsSearch">Search Projects</label>
+                        <div class="input-group">
+                            <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+                            <input type="text" class="form-control" id="projectsSearch" placeholder="Search Projects" ng-model="searchFilter">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-xs-6">
+                <select class="form-control project-dropdown">
+                    <option>Industry A</option>
+                    <option>Industry B</option>
+                    <option>Industry C</option>
+                    <option>Industry D</option>
+                    <option>Industry E</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="row project-filters">
+            <div class="col-xs-6 col-md-3">
+                <div class="project-filter"
+                     ng-class="{'active': searchFilter == ''}"
+                     ng-click="setSearchFilter('')">All</div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="project-filter"
+                     ng-class="{'active': searchFilter == 'Windows'}"
+                     ng-click="setSearchFilter('Windows')">
+                    <img src="../content/portfolio/img/icons/nav_windows_uxsite.png" class="img-responsive" />
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="project-filter"
+                     ng-class="{'active': searchFilter == 'Windows Phone'}"
+                     ng-click="setSearchFilter('Windows Phone')">
+                    <img src="../content/portfolio/img/icons/nav_windows_phone_uxsite.png" class="img-responsive" />
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="project-filter"
+                     ng-class="{'active': searchFilter == 'SharePoint'}"
+                     ng-click="setSearchFilter('SharePoint')">
+                    <img src="../content/portfolio/img/icons/nav_sharepoint_uxsite.png" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row projects" ng-controller="ProjectsModalCtrl">
+
+            <div ng-repeat="project in returnedProjects=(projects | filter:searchFilter | orderBy: 'title')">
+                <img ng-src="{{project.thumbnail}}" alt="{{project.name}} Thumbnail" ng-click="openModal(project)" />
+            </div>
+
+            <div class="projects-error" ng-if="!returnedProjects.length">Sorry, but no projects match your search criteria.</div>
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,48 @@
+﻿/* App CSS */
+
+/*#region Bootstrap Overrides */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*#endregion*/
+
+/*#region Animations */
+/*
+*   Placeholder classes used with the ng-animate module
+*   Add an animation, such as those prebuilt in Animate.css
+*   See http://www.yearofmoo.com/2013/08/remastered-animation-in-angularjs-1-2.html for more information on ng-animate
+*/
+.ng-enter {
+    -moz-animation: fadeInRight 1s;
+    -o-animation: fadeInRight 1s;
+    -webkit-animation: fadeInRight 1s;
+    animation: fadeInRight 1s;  /* using fadeInRight */
+}
+
+.ng-enter-active {
+}
+
+.ng-leave {
+}
+
+.ng-leave-active {
+}
+
+.ng-move {
+}
+
+.ng-move-active {
+}
+
+.ng-hide-add {
+}
+
+.ng-hide-add-active {
+}
+
+.ng-hide-remove {
+}
+
+.ng-hide-remove-active {
+}
+/*#endregion*/

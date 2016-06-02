@@ -1,0 +1,22 @@
+﻿<!-- Hero Slider CSS -->
+<link rel="stylesheet" href="../content/portfolio/app/home/hero/hero.min.css" />
+
+<section ng-controller="HeroCtrl">
+
+    <div class="container-fluid carousel-container">
+
+        <carousel interval="homeSlidesInterval">
+            <slide ng-repeat="slide in homeSlides" active="slide.active" style="background-image: url({{slide.background}})">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <img ng-src="{{slide.image}}" class="img-responsive" />
+                        </div>
+                    </div>
+                </div>
+            </slide>
+        </carousel>
+
+    </div>
+
+</section>
