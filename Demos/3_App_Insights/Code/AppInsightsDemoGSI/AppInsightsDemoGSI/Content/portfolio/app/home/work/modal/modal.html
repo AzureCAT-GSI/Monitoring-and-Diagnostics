@@ -1,0 +1,79 @@
+﻿<!-- Modal CSS -->
+<link rel="stylesheet" href="../content/portfolio/app/home/work/modal/modal.css" />
+
+<!-- Modal Template -->
+<div class="modal-body">
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-9 modal-body-left">
+               
+                <div class="pull-right modal-project-type">
+                    <img src="../content/portfolio/img/icons/content_windows_uxsite.png" alt="Project Type" ng-if="project.technology && project.technology.indexOf('Windows') != -1" />
+                    <img src="../content/portfolio/img/icons/content_windows_phone_uxsite.png" alt="Project Type" ng-if="project.technology && project.technology.indexOf('Mobile') != -1" />
+                    <img src="../content/portfolio/img/icons/content_sharepoint_uxsite.png" alt="Project Type" ng-if="project.technology && project.technology.indexOf('SharePoint') != -1" />
+                </div>
+
+                <div class="modal-body-heading">
+                    <h1>{{project.title}}</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue eu enim ac ultrices. Vivamus mauris nulla, volutpat feugiat odio a, dignissim pulvinar diam. Nulla sit amet metus eu augue tincidunt finibus vel ut est. Etiam eu lorem lobortis ipsum commodo hendrerit. Donec aliquam sed libero vel condimentum. Vestibulum mattis, tortor ac varius gravida, sem ex venenatis elit, a rutrum sem lacus eu nibh. Maecenas convallis, arcu vitae dictum dictum, ex massa tempus justo, id finibus enim urna at libero. Aenean suscipit a velit et pulvinar. Vivamus pellentesque dolor vel dolor vulputate, in fringilla risus pharetra.</p>
+                    <p>Morbi sollicitudin massa quis ipsum consequat, a euismod risus molestie. Nullam at facilisis mi, non laoreet erat. Vivamus faucibus vel mi sed tristique. Etiam vulputate iaculis lorem, in maximus justo consectetur iaculis. Sed dictum dapibus mi, et ullamcorper ligula. In sodales dolor quis erat hendrerit ultrices. Vestibulum tincidunt ultricies dui tincidunt mattis. Vestibulum volutpat vulputate enim, sit amet posuere lacus pellentesque ut. Pellentesque bibendum ex in pulvinar aliquam.</p>
+                </div>
+
+                <div class="row modal-body-carousel">
+
+                    <div class="col-xs-9">
+
+                        <img ng-src="{{project.thumbnail}}" />
+
+                    </div><!--/.col-->
+
+                </div><!--/.row-->
+
+            </div>
+
+            <div class="col-md-3 modal-body-right">
+
+                <div class="modal-close" ng-click="closeModal()">
+                    <img src="../content/portfolio/img/modal/content_close_uxsite.png" alt="Close Modal" />
+                </div>
+
+                <div class="modal-project-attribute">
+                    <span>Downloads</span>
+                    <ul class="list-unstyled">
+                        <li><a href="http://bing.com" target="_blank">Summary</a></li>
+                        <li><a href="http://bing.com" target="_blank">Case Study</a></li>
+                    </ul>
+                </div>
+
+                <div class="modal-project-attribute" ng-if="project.offering">
+                    <span>Offering Type</span>
+                    <ul class="list-unstyled">
+                        <li>{{project.offering}}</li>
+                    </ul>
+                </div>
+
+                <div class="modal-project-attribute">
+                    <span>Similar Projects</span>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="http://bing.com" target="_blank">Lucerne Publishing</a>
+                            <small>Windows 8 / Windows Phone</small>
+                        </li>
+                        <li>
+                            <a href="http://bing.com" target="_blank">Coho Vineyards</a>
+                            <small>Windows 8</small>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>

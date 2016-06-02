@@ -1,0 +1,196 @@
+﻿body {
+    background-color: #333;
+    font-family: 'segoe ui';
+    font-size: 20px;
+    padding-top: 90px;
+    color: #999;
+}
+
+/*#region Bootstrap Overrides */
+.form-control:focus {
+    box-shadow: none;
+}
+/*#endregion*/
+
+
+/*#region Typography */
+h1 {
+    font-weight: 100;
+    color: #00A4EB;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 25px;
+    color: #999;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.link-download {
+    color: #FFB900;
+    display: block;
+    margin-top: 30px;
+
+    &:active,
+    &:visited,
+    &:hover,
+    &:focus {
+        color: #FFB900;
+    }
+
+    &:before {
+        content: '';
+        display: block;
+        float: left;
+        background: url('../../img/icons/download.png') no-repeat center center;
+        width: 20px;
+        height: 20px;
+        margin: 2px 8px 0 0;
+    }
+}
+/*#endregion*/
+
+
+/*#region Sections */
+section {
+    margin-bottom: 60px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.separated {
+    border-top: 1px solid #222;
+    padding-top: 40px;
+}
+/*#endregion*/
+
+
+/*#region About Us */
+.about .row {
+    margin-bottom: 40px;
+}
+
+.about-infographic img {
+    margin: 0 auto;
+}
+
+.about-section {
+    padding: 0 20px;
+
+    img {
+        display: block;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0 0 20px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+.about-section-dark {
+    background-color: #222;
+    color: #FFF;
+    padding: 20px;
+}
+
+.about-section-infographic {
+    width: 335px;
+    position: absolute;
+}
+
+.accent-orange {
+    color: #FF8C00;
+}
+
+.accent-teal {
+    color: #00D9CC;
+}
+
+.accent-yellow {
+    color: #B8D80A;
+}
+
+.accent-pink {
+    color: #F272D0;
+}
+
+.accent-blue {
+    color: #00BAF2;
+}
+/*#endregion*/
+
+
+/*#region Puzzle */
+.puzzle {
+    font-size: 16px;
+
+    h2 {
+        color: #FFF;
+        font-weight: 100;
+        font-size: 50px;
+        margin-top: 80px;
+    }
+
+    .row {
+        margin-bottom: 40px;
+    }
+
+    img {
+        height: 500px;
+    }
+
+    .puzzle-long-copy h2 {
+        margin-top: 0;
+    }
+
+    .puzzle-long-copy img {
+        margin-top: 80px;
+    }
+}
+/*#endregion*/
+
+
+/*#region Contact */
+#contact {
+    position: relative;
+    margin-bottom: 0;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #D800D8;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .contact-info {
+        position: absolute;
+        top: 50%;
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: rgba(0,0,0,.8);
+        padding: 10px 60px 30px;
+        width: 45%;
+    }
+}
+/*endregion*/

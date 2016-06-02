@@ -1,0 +1,38 @@
+﻿/*#region Top Nav */
+.navbar-inverse {
+    background-color: #222;
+    border-radius: 0;
+    border: 0;
+    min-height: 90px;
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    margin-left: 10%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    padding: 34px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav .active,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > li > a.active:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background: inherit;
+    border-bottom: 5px solid #666;
+    padding-bottom: 31px;
+    color: #FFBF00;
+}
+
+.navbar-right {
+    padding-top: 27px;
+}
+
+.navbar-brand img {
+    cursor: pointer;
+}
+/*#endregion*/
