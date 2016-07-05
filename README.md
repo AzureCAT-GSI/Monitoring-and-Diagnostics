@@ -8,18 +8,9 @@ The PowerPoint includes full speaker notes helping you understand the slides, an
 Watch the [video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-and-diagnostics/todo.mp4).
 
 ## Demos
-1. Demo 1
-[[demo script](Demos/1_OOTB)]
-[[video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-and-diagnostics/todo.mp4)]
-
-2. Demo 2
-[[demo script](Demos/2_OMS)]
-[[video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-and-diagnostics/todo.mp4)]
-
-3. Demo 3
-[[source code](Demos/3_App_Insights/Code/AppInsightsDemoGSI)]
-[[demo script](Demos/3_App_Insights)]
-[[video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-and-diagnostics/todo.mp4)]
+1. Out of the Box Service Monitoring [demo script](Demos/1_OOTB)
+2. Monitoring with Operational Insights [demo script](Demos/2_OMS)
+3. Monitoring with Application Insights [demo script](Demos/3_App_Insights) | [source code](Demos/3_App_Insights/Code/AppInsightsDemoGSI) 
 
 ## Session Objectives
 * Understand Azure Out of the box diagnostics and monitoring features
