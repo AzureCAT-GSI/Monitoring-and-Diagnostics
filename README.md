@@ -20,3 +20,19 @@ Watch the [video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-an
 [[source code](Demos/3_App_Insights/Code/AppInsightsDemoGSI)]
 [[demo script](Demos/3_App_Insights)]
 [[video](https://gsiazurecoecontent.blob.core.windows.net/monitoring-and-diagnostics/todo.mp4)]
+
+## Session Objectives
+* Understand Azure Out of the box diagnostics and monitoring features
+* Discuss the posibilities of Azure Application Insights, giving you a detailed view on PaaS components behavior
+* Highlight the key features of Operations Management Suite (OMS), how to use the log querying, solution packs and how it provides monitoring of different IaaS components of Azure 
+* Discuss the differences between OMS and SCOM, as well providing architectural guidelines for hybrid monitoring and 3rd party monitoring tools integration capabilities
+
+## Session Prerequisites
+* [Azure Subscription](https://github.com/GSIAzureCOE/Designing-and-Managing-Azure-Subscriptions)
+
+## Azure Services Covered
+* [Operations Management Suite](https://azure.microsoft.com/en-us/documentation/suites/operations-management-suite/)
+* [Application Insights](https://azure.microsoft.com/en-us/documentation/services/application-insights/)
+
+## Code of Conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
