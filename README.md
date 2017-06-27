@@ -1,3 +1,7 @@
+> **Update:** Hello! As of 1 January 2017 this content is no longer being actively managed and updated. It is provided as-is and may contain information that has changed. Any Issues will be addressed on a best-effort basis. Please see [Azure.com](http://www.azure.com) for the latest guidance. Thank you for your understanding.
+
+---
+
 # Monitoring and Diagnostics in Azure
 Application monitoring and diagnosing problems is a core function of all IT groups, regardless of whether the application is running on-premises or in the cloud.  In this session see how IT can leverage features such as Operational Insights to collect, store, and analyze diagnostics data.  Next, learn how developers can use Application Insights to provide deep analytical metrics from their applications to improve performance, response times, analyze application failures, and discover usability trends.  Lastly, learn practices for storing log data, tools for analysis, and how to configure rules and alerts to help thwart off potential problems for your end-users.
 
